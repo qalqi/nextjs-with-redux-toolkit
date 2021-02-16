@@ -1,4 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
+import { combineEpics } from 'redux-observable';
+import { combineReducers } from 'redux';
 
 import clockReducer from './lib/slices/clockSlice'
 import counterReducer from './lib/slices/counterSlice'

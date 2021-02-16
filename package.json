@@ -12,7 +12,9 @@
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-redux": "^7.2.0"
+    "react-redux": "^7.2.0",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3"
   },
   "license": "MIT"
 }
